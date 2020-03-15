@@ -22,9 +22,20 @@
 	"extra": {
 		"laravel": {
 			"providers": [
-				"Fbo\\LarabergCustomBlocks\\ToolServiceProvider"
+				"Fbo\\LarabergCustomBlocks\\ToolServiceProvider",
+				"Fbo\\LarabergCustomBlocks\\FieldServiceProvider"
 			]
-		}
+		},
+		"thanks": [
+			{
+				"name": "symfony/webpack-encore",
+				"url": "https://github.com/symfony/webpack-encore"
+			},
+			{
+				"name": "van-ons/laraberg",
+				"url": "https://github.com/van-ons/laraberg"
+			}
+		]
 	},
 	"config": {
 		"sort-packages": true
