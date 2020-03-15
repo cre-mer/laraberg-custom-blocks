@@ -5,39 +5,14 @@ A custom nova component that helps adding custom blocks to van-ons laraberg
 This packages uses the awesome [**Laraberg** package by **VanOns**](https://github.com/VanOns/laraberg)
 
 ## Installation
-1. In your project root:
+1. Execute following command in your laravel project root
 ```sh
-> git clone https://github.com/FBOgmbh/FBO_Laraberg-Blocks nova-components/LarabergCustomBlocks
+> composer require "fbo/laraberg-custom-blocks":"dev-master"
 ```
 
-2. Add this to your composer.json
-```js
-    "repositories": [
-        {
-            "type": "path",
-            "url": "./nova-components/LarabergCustomBlocks"
-        }
-    ],
-```
-then
-```js
-    "require": {
-        "fbo/laraberg-custom-blocks": "*"
-    },
-```
-
-3. Execute following command
-```sh
-> composer update
-> cd nova-components/LarabergCustomBlocks
-> composer install && npm i
-> npm run dev/watch
-```
-
-You're one step apart from Laraberg!
-4. Add the following to your resource file
+2. Add the following to your resource file
 ```php
-use Fbo\LarabergCustomBlocks\LarabergCustomBlocks;
+use Fbo\LarabergCustomBlocks\Gutenberg;
 .
 .
 .
@@ -52,7 +27,14 @@ use Fbo\LarabergCustomBlocks\LarabergCustomBlocks;
 
 ```
 
+## Optional
+Star all required packages
+```sh
+> composer thanks
+```
+
+
 Happy editing 👩🏼‍💻👨🏼‍💻
 
-# Versioning
+## Versioning
 0.0.1
