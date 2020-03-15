@@ -22,7 +22,6 @@
 	"extra": {
 		"laravel": {
 			"providers": [
-				"Fbo\\LarabergCustomBlocks\\ToolServiceProvider",
 				"Fbo\\LarabergCustomBlocks\\FieldServiceProvider"
 			]
 		},
