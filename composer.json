@@ -15,7 +15,7 @@
 		"laravel/nova": "^3.0",
 		"symfony/thanks": "^1.2",
 		"unisharp/laravel-filemanager": "^1.9",
-		"van-ons/laraberg": "0.0.6-beta"
+		"van-ons/laraberg": "dev-master"
 	},
 	"autoload": {
 		"psr-4": {
@@ -25,7 +25,7 @@
 	"extra": {
 		"laravel": {
 			"providers": [
-				"Fbo\\LarabergCustomBlocks\\FieldServiceProvider"
+				"Fbo\\LarabergCustomBlocks\\ToolServiceProvider"
 			]
 		}
 	},
