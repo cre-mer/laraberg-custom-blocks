@@ -1,0 +1,37 @@
+{
+	"name": "fbo/laraberg-custom-blocks",
+	"description": "A Laravel Nova resource tool.",
+	"version": "0.0.1",
+	"keywords": [
+		"laravel",
+		"nova"
+	],
+	"license": "MIT",
+	"repositories": [{
+		"type": "composer",
+		"url": "https://nova.laravel.com"
+	}],
+	"require": {
+		"laravel/nova": "^3.0",
+		"symfony/thanks": "^1.2",
+		"unisharp/laravel-filemanager": "^1.9",
+		"van-ons/laraberg": "0.0.6-beta"
+	},
+	"autoload": {
+		"psr-4": {
+			"Fbo\\LarabergCustomBlocks\\": "src/"
+		}
+	},
+	"extra": {
+		"laravel": {
+			"providers": [
+				"Fbo\\LarabergCustomBlocks\\FieldServiceProvider"
+			]
+		}
+	},
+	"config": {
+		"sort-packages": true
+	},
+	"minimum-stability": "dev",
+	"prefer-stable": true
+}
